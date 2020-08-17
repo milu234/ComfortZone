@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello28e2.eot?50513819');
+  src: url('../fonts/fontello28e2.eot?50513819#iefix') format('embedded-opentype'),
+       url('../fonts/fontello28e2.html?50513819') format('woff2'),
+       url('../fonts/fontello28e2.woff?50513819') format('woff'),
+       url('../fonts/fontello28e2.ttf?50513819') format('truetype'),
+       url('../fonts/fontello28e2.svg?50513819#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?50513819#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+ 
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-anchor:before { content: '\e800'; } /* '' */
+.icon-axe:before { content: '\e801'; } /* '' */
+.icon-backpack:before { content: '\e802'; } /* '' */
+.icon-beach-ball:before { content: '\e803'; } /* '' */
+.icon-beer:before { content: '\e804'; } /* '' */
+.icon-big-ben:before { content: '\e805'; } /* '' */
+.icon-binoculars:before { content: '\e806'; } /* '' */
+.icon-bonfire:before { content: '\e807'; } /* '' */
+.icon-brandenburg-gate:before { content: '\e808'; } /* '' */
+.icon-bus:before { content: '\e809'; } /* '' */
+.icon-bus-1:before { content: '\e80a'; } /* '' */
+.icon-cable-car-cabin:before { content: '\e80b'; } /* '' */
+.icon-cactus:before { content: '\e80c'; } /* '' */
+.icon-calendar:before { content: '\e80d'; } /* '' */
+.icon-shell:before { content: '\e80e'; } /* '' */
+.icon-camel:before { content: '\e80f'; } /* '' */
+.icon-camper:before { content: '\e810'; } /* '' */
+.icon-car:before { content: '\e811'; } /* '' */
+.icon-carabiner:before { content: '\e812'; } /* '' */
+.icon-coffee-cup:before { content: '\e813'; } /* '' */
+.icon-compass:before { content: '\e814'; } /* '' */
+.icon-credit-card:before { content: '\e815'; } /* '' */
+.icon-cup:before { content: '\e816'; } /* '' */
+.icon-cutlery:before { content: '\e817'; } /* '' */
+.icon-dinner:before { content: '\e818'; } /* '' */
+.icon-direction:before { content: '\e819'; } /* '' */
+.icon-diving:before { content: '\e81a'; } /* '' */
+.icon-doorknob:before { content: '\e81b'; } /* '' */
+.icon-earth-globe:before { content: '\e81c'; } /* '' */
+.icon-eiffel-tower:before { content: '\e81d'; } /* '' */
+.icon-finish:before { content: '\e81e'; } /* '' */
+.icon-first-aid-kit:before { content: '\e81f'; } /* '' */
+.icon-flashlight:before { content: '\e820'; } /* '' */
+.icon-flight:before { content: '\e821'; } /* '' */
+.icon-flip-flops:before { content: '\e822'; } /* '' */
+.icon-forest:before { content: '\e823'; } /* '' */
+.icon-glasses:before { content: '\e824'; } /* '' */
+.icon-glasses-1:before { content: '\e825'; } /* '' */
+.icon-guitar:before { content: '\e826'; } /* '' */
+.icon-hot-air-balloon:before { content: '\e827'; } /* '' */
+.icon-hotel:before { content: '\e828'; } /* '' */
+.icon-info:before { content: '\e829'; } /* '' */
+.icon-kayak:before { content: '\e82a'; } /* '' */
+.icon-keys:before { content: '\e82b'; } /* '' */
+.icon-knife:before { content: '\e82c'; } /* '' */
+.icon-lantern:before { content: '\e82d'; } /* '' */
+.icon-leaning-tower-of-pisa:before { content: '\e82e'; } /* '' */
+.icon-lifesaver:before { content: '\e82f'; } /* '' */
+.icon-lighter:before { content: '\e830'; } /* '' */
+.icon-map:before { content: '\e831'; } /* '' */
+.icon-mountains:before { content: '\e832'; } /* '' */
+.icon-navigation:before { content: '\e833'; } /* '' */
+.icon-oxygen-tank:before { content: '\e834'; } /* '' */
+.icon-passport:before { content: '\e835'; } /* '' */
+.icon-photo-camera:before { content: '\e836'; } /* '' */
+.icon-placeholder:before { content: '\e837'; } /* '' */
+.icon-postmark:before { content: '\e838'; } /* '' */
+.icon-pyramid:before { content: '\e839'; } /* '' */
+.icon-rain:before { content: '\e83a'; } /* '' */
+.icon-rating:before { content: '\e83b'; } /* '' */
+.icon-spin1:before { content: '\e83c'; } /* '' */
+.icon-ship:before { content: '\e83d'; } /* '' */
+.icon-ski:before { content: '\e83e'; } /* '' */
+.icon-snowboard:before { content: '\e83f'; } /* '' */
+.icon-snowflake:before { content: '\e840'; } /* '' */
+.icon-sphinx:before { content: '\e841'; } /* '' */
+.icon-starfish:before { content: '\e842'; } /* '' */
+.icon-suitcase:before { content: '\e843'; } /* '' */
+.icon-sun:before { content: '\e844'; } /* '' */
+.icon-sun-umbrella:before { content: '\e845'; } /* '' */
+.icon-surf:before { content: '\e846'; } /* '' */
+.icon-swimming-pool:before { content: '\e847'; } /* '' */
+.icon-swiss-army-knife:before { content: '\e848'; } /* '' */
+.icon-taxi:before { content: '\e849'; } /* '' */
+.icon-tent:before { content: '\e84a'; } /* '' */
+.icon-tickets:before { content: '\e84b'; } /* '' */
+.icon-train:before { content: '\e84c'; } /* '' */
+.icon-wallet:before { content: '\e84d'; } /* '' */
+.icon-water:before { content: '\e84e'; } /* '' */
+.icon-airplane:before { content: '\e84f'; } /* '' */
+.icon-coliseum:before { content: '\e850'; } /* '' */
