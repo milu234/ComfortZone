@@ -1407,7 +1407,7 @@ Homepage-2
 6. Slider
 -------------------------------------------------------------------*/
 .hero-section {
-    background: url(../images/hero-image.jpg) no-repeat center;
+    background: url(../images/hero.jpeg) no-repeat center;
     background-size: cover;
     min-height: 500px;
 }
